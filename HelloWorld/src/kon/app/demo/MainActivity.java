@@ -15,6 +15,11 @@ public class MainActivity extends Activity {
 		showToast("This is a Demo about create!");
 	}
 	
+	/**
+	 * show the toast
+	 *
+	 * Parameters str
+	 */
 	private void showToast(String str){
 		Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
 	}
